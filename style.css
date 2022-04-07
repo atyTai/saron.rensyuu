@@ -58,7 +58,7 @@ p {
     right: 0;
     left: 0;
     background-color: rgba(255, 255, 255, 0);
-    z-index: 100;
+    z-index: 5;
 
 }
 
@@ -106,7 +106,7 @@ p {
     font-family: 'Lora', serif;
 
     /* フォント色を黒色に設定 */
-    color: #000000 !important;
+    color: rgb(0, 90, 160);
 
 }
 
@@ -170,14 +170,17 @@ p {
 /* height: 10vh; */
 /* background-size: contain; */
 /* width: 100%; */
+/* z-index: 10; */
 /* } */
 
-.st img {
+.stimg {
     /* width: 100px; */
-    background-size: contain;
+    /* background-size: contain; */
     height: 15vh;
     padding-left: 7px;
+    z-index: 10;
 }
+
 
 
 /* ----------------------------------------------- カールセル */
@@ -208,11 +211,18 @@ p {
 }
 
 /* スマートフォン画面幅（画面幅が最大375pxまで）の場合、以下のスタイルを適用。 */
-@media screen and (max-width:375px) {
+@media (max-width:375px) {
     .my_carousel_caption {
 
         /* フォントサイズを27pxにする */
         font-size: 27px;
+    }
+
+    .st img {
+        /* width: 100px; */
+
+        height: 1em;
+
     }
 }
 
@@ -514,4 +524,23 @@ i:hover {
     background-size: cover;
     padding: 0;
     margin: 0;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:375px) {
+    .stimg {
+        /* width: 100px; */
+
+        height: 1em;
+
+    }
+
+
+
 }
