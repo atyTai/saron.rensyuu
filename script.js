@@ -221,7 +221,7 @@ $(function () {
 
             // $('.head').addClass('headd');
 
-            $('.oyanavtati').css('height', '2.9em');
+            $('.oyanavtati').css('height', '4.9em');
 
             $('.se').addClass('setu');
 
