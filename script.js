@@ -206,7 +206,7 @@ $(function () {
             // $('.head').removeClass('headd');
             $('.oyanavtati .head').css('display', 'block');
             $('.oyanavtati .head').css('height', 'auto');
-           // $('.oyanavtati').css('height', '5.9em');
+            $('.oyanavtati').css('height', '3.9em');
             // $('.head').css('display', 'block');
 
             $('.stimg').css(
@@ -237,16 +237,16 @@ $(function () {
 
         // var $answer = $(this).find('.answer');
 
-        if ($('.evi').hasClass('headd')) {
+        if ($('.evi').hasClass('he')) {
 
-            $('.evi').removeClass('headd');
+            $('.evi').removeClass('he');
             $('.evi').css('background-color', 'rgba(255,255,255,0)');
             $('.evi').slideUp();
             // $answer.slideUp();
             // $(this).find('span').text('+');
         } else {
 
-            $('.evi').addClass('headd');
+            $('.evi').addClass('he');
             $('.evi').css('background-color', 'rgba(255,255,255,0.85)');
             // $answer.slideDown();
             // $(this).find('span').text('-');
@@ -256,17 +256,17 @@ $(function () {
 
 
 
-     $('.oyanavtati').hover(
+    $('.oyanavtati').hover(
 
-     function () {
-     $('.evi').css('background-color', 'rgba(255,255,255,0.95)');
-     $('.headd').css('background-color', 'rgba(255,255,255,0.95)');
-     },
-     function () {
+        function () {
+            // $('.evi').css('background-color', 'rgba(255,255,255,0.95)');
+            $('.headd').css('background-color', 'rgba(255,255,255,0.95)');
+        },
+        function () {
 
-     $('.evi').css('background-color', 'rgba(255,255,255,0)');
-     $('.headd').css('background-color', 'rgba(255,255,255,0)');
-     }
+            // $('.evi').css('background-color', 'rgba(255,255,255,0)');
+            $('.headd').css('background-color', 'rgba(255,255,255,0)');
+        }
     );
 
 
