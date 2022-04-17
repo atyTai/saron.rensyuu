@@ -2,6 +2,23 @@
 html,
 body {
     overflow-x: hidden;
+
+}
+
+
+
+.evi {
+    z-index: 1000;
+
+
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+    display: none;
 }
 
 body {
@@ -58,7 +75,24 @@ p {
     right: 0;
     left: 0;
     background-color: rgba(255, 255, 255, 0);
-    z-index: 5;
+    z-index: 100000;
+
+    /* height: 4em; */
+    /* overflow: hidden; */
+    /* position: relative; */
+}
+
+/* .oyanavtati { */
+/* position: relative; */
+/* } */
+
+.navtati {
+    height: 4em;
+}
+
+.navtati {
+    position: absolute;
+    top: 0;
 
 }
 
@@ -141,6 +175,7 @@ p {
     display: none;
     /* width: 170px; */
     /* height: 80px; */
+    background-color: rgba(255, 255, 255, 0.95);
 }
 
 
