@@ -206,7 +206,7 @@ $(function () {
             // $('.head').removeClass('headd');
             $('.oyanavtati .head').css('display', 'block');
             $('.oyanavtati .head').css('height', 'auto');
-            $('.oyanavtati').css('height', '5.9em');
+           // $('.oyanavtati').css('height', '5.9em');
             // $('.head').css('display', 'block');
 
             $('.stimg').css(
@@ -256,18 +256,18 @@ $(function () {
 
 
 
-    // $('.oyanavtati').hover(
+     $('.oyanavtati').hover(
 
-    // function () {
-    // $('.evi').css('background-color', 'rgba(255,255,255,0.95)');
-    // $('.headd').css('background-color', 'rgba(255,255,255,0.95)');
-    // },
-    // function () {
+     function () {
+     $('.evi').css('background-color', 'rgba(255,255,255,0.95)');
+     $('.headd').css('background-color', 'rgba(255,255,255,0.95)');
+     },
+     function () {
 
-    // $('.evi').css('background-color', 'rgba(255,255,255,0)');
-    // $('.headd').css('background-color', 'rgba(255,255,255,0)');
-    // }
-    // );
+     $('.evi').css('background-color', 'rgba(255,255,255,0)');
+     $('.headd').css('background-color', 'rgba(255,255,255,0)');
+     }
+    );
 
 
 
